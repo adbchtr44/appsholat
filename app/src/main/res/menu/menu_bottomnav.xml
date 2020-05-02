@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_bottomnav_location"
+        android:title="Prayer Time"
+        android:icon="@drawable/group"
+        app:showAsAction="ifRoom"
+        />
+    <item
+       android:id="@+id/menu_bottomnav_imsak"
+        android:title="Imsak Time"
+        android:icon="@drawable/clock"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/menu_bottomnav_data"
+        android:title="Data"
+        android:icon="@drawable/data"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.fragment.ImsakFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:id="@+id/imsak_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/imsak_tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/imsak_namapenceramah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Penceramah"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/imsak_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul Ceramah"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+    <Button
+        android:id="@+id/imsak_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SUBMIT"
+        android:textSize="20sp"
+        />
+
+
+</LinearLayout>
+
+
+
+</FrameLayout>
